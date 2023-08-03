@@ -1,0 +1,119 @@
+@media(max-width:960px){
+    .box{
+        background-color: #0f0101;
+        height: 200px;
+        width: 200px;
+        border-radius:50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .frame{
+        display: flex;
+      }
+      h3{
+        font-weight: 100;
+        font-size: 20px;
+        color:#f9f9fc;
+        text-transform: uppercase;
+       
+      }
+      .hrs,.min,.sec,.ms,.colon{
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        text-align: center;
+        line-height: 20px;
+        color: #fcf6f6;
+        }
+        .buttons{
+            padding-top: 10px;
+        }
+        .buttons button{
+            border: none;
+            color:white;
+            border-radius: 0px;
+            text-transform: uppercase;
+           }
+           
+           .start{background-color: #6ab04c;}
+           .stop{background-color: #141980;}
+           .reset{background-color:  #eb4d4b;}
+           
+           
+           .start-active,
+           .stop-active{
+             pointer-events: none;
+             opacity: 0.5;
+           }
+           .buttons button{
+            border: none;
+            padding: 4px 6px;
+            color:white;
+            border-radius: 50px;
+            text-transform: uppercase;
+           }
+
+}
+@media(min-width:961px){
+      .box{
+        background-color: #0f0101;
+        height: 380px;
+        width: 400px;
+        border-radius:50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 100px 450px;
+      }
+      
+      .frame{
+        display: flex;
+        gap: 3px;
+      }
+      
+      h3{
+        font-weight: 900;
+        font-size: 40px;
+        color:#f9f9fc;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+      }
+      .hrs,.min,.sec,.ms,.colon{
+      width: 50px;
+      height: 50px;
+      font-size: 50px;
+      text-align: center;
+      line-height: 50px;
+      color: #fcf6f6;
+      }
+      .colon{
+      width: 10px;
+      height: 50px;
+      }
+      .buttons{
+        margin-top: 25px;
+      }
+      .buttons button{
+       border: none;
+       padding: 10px 30px;
+       color:white;
+       border-radius: 50px;
+       text-transform: uppercase;
+      }
+      
+      .start{background-color: #6ab04c;}
+      .stop{background-color: #141980;}
+      .reset{background-color:  #eb4d4b;}
+      
+      
+      .start-active,
+      .stop-active{
+        pointer-events: none;
+        opacity: 0.5;
+      }
+    
+}
+ 
